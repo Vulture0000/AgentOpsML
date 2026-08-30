@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "dataset": "sklearn breast cancer",
+  "input_features": 30,
+  "split_sizes": {
+    "train": 398,
+    "validation": 85,
+    "test": 86
+  },
+  "selection_rule": [
+    "validation_f1_descending",
+    "validation_accuracy_descending",
+    "parameter_count_ascending"
+  ],
+  "winner": "experiment-3",
+  "final_test": {
+    "accuracy": 0.9767441860465116,
+    "precision": 0.9642857142857143,
+    "recall": 1.0,
+    "f1": 0.9818181818181818,
+    "loss": 0.12231384217739105
+  }
+}
