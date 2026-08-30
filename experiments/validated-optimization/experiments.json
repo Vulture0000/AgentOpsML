@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "experiments": [
+    {
+      "name": "experiment-3",
+      "architecture": "Deep Residual MLP",
+      "parameter_count": 3265,
+      "validation_accuracy": 1.0,
+      "validation_precision": 1.0,
+      "validation_recall": 1.0,
+      "validation_f1": 1.0,
+      "validation_loss": 0.05356203392148018
+    },
+    {
+      "name": "experiment-1",
+      "architecture": "Simple MLP",
+      "parameter_count": 513,
+      "validation_accuracy": 0.9882352941176471,
+      "validation_precision": 1.0,
+      "validation_recall": 0.9811320754716981,
+      "validation_f1": 0.9904761904761905,
+      "validation_loss": 0.10142434388399124
+    },
+    {
+      "name": "experiment-2",
+      "architecture": "Medium MLP + BatchNorm",
+      "parameter_count": 1601,
+      "validation_accuracy": 0.9882352941176471,
+      "validation_precision": 1.0,
+      "validation_recall": 0.9811320754716981,
+      "validation_f1": 0.9904761904761905,
+      "validation_loss": 0.1791875958442688
+    }
+  ],
+  "winner": "experiment-3"
+}
